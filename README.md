@@ -27,18 +27,18 @@
 
 ## Assignments
 
-### 1. Sentiment classification for film reviews ()
+### 1. Sentiment classification for film reviews (Sentiment_Polarity_film_reviews.ipynb)
 - Implement a classification model for film reviews, labelled as either positive or negative using Scikit-learn
 - not using sklearn or any equivalent ML library
 - Result: accuracy 85.8% (max iteration: 500)
 
-### 2. Evaluating and Extending an RNN based Part-of-Speech Tagger ()
+### 2. Evaluating and Extending an RNN based Part-of-Speech Tagger (RNN_based_Pos_tagger.ipynb)
 - Refactor the starter code to build a model for PoS tagging using RNN layers (GPU or LSTM, option to use a bi-directional RNN layer) and mini-batch training
 - Evaluate the model on a number of sources in different languages (Korean, Engligh, Swedish)
 - Data : Universal dependencies (UD)
 - Result: With 64 hidden dimension, test accuracy in English, Korean and Swedish are 95%, 61%, 75% respectively while with 128 hidden dimension 95%, 72% and 77%
 : Test accuracy of both LSTM and GRU without using bidirectional option are 95% and with using bidirectional option are 97%. (Only English taggning)
 
-### 3. Sentiment classification for film reviews using pre-trained transformer language model ()
+### 3. Sentiment classification for film reviews using pre-trained transformer language model (Sentiment_Polarity_film_reviews(pre-trained).ipynb)
 - Develop the model implemented for assignment 1 (Sentiment classification for film reviews) by using a transformer-based language model running in g a neural network. (Use Huggingface and bigger dataset)
 - Result: Test accuracy 69.9%
